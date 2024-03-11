@@ -6,18 +6,13 @@ import About from '../components/About'
 import Services from '../components/Services'
 import MyTeam from '../components/MyTeam'
 import Contact from '../components/Contact'
-// import { ScrollControls } from '@react-three/drei'
 
 
 const MyRoutes = () => {
   return (
     <>
-    {/* <ScrollControls pages={3}> */}
     <BrowserRouter>
-    {/* Header  */}
    <Header/>
-
-    {/* Contant  */}
     <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
@@ -25,10 +20,7 @@ const MyRoutes = () => {
         <Route path="/myteam" element={<MyTeam/>} />
         <Route path="/contact" element={<Contact/>} />
     </Routes>
-
-    {/* Footer  */}
     </BrowserRouter>
-    {/* </ScrollControls> */}
     </>
   )
 }
