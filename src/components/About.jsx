@@ -7,12 +7,18 @@ import { Bloom, ToneMapping, EffectComposer } from '@react-three/postprocessing'
 import '../components/Models/model.css'
 // import { OrbitControls } from '@react-three/drei'
 import { HomeModelgirl01 } from './Models/homemodelgirl01'
+import { Helmet } from 'react-helmet-async'
 import Contact from './Contact'
 
 const About = () => {
   // const [action, setAction] = useState("Idle");
   return (
     <>
+     <Helmet>
+      <title>about</title>
+      <meta name="description" content="about page need page information" />
+      <link rel="canonical" href="http://localhost:5173/about" />
+    </Helmet>
       <section className='bg-slate-900 '>
         {/* <div>
          <video src="../src/assets/all-videos/home-bg-vd1.mp4" autoPlay loop></video>

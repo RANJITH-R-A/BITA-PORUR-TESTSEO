@@ -2,12 +2,18 @@ import React, { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 import HomeModel1 from './Models/HomeModel1'
 import '../components/Models/model.css'
+import { Helmet } from 'react-helmet-async'
 // import { OrbitControls } from '@react-three/drei'
 // background-image: linear-gradient(to top, #152342, #0f1e3d, #091a38, #041533, #000f2e);
 
 const Home = () => {
   return (
     <>
+    <Helmet>
+      <title>Home</title>
+      <meta name="description" content="home page need page informatio" />
+      <link rel="canonical" href="http://localhost:5173/" />
+    </Helmet>
       <section >
         {/* <div>
           <video src="../src/assets/all-videos/home-bg-vd1.mp4" autoPlay loop></video>

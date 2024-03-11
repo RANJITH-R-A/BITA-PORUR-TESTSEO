@@ -24,6 +24,8 @@ import { Canvas, useThree } from "@react-three/fiber";
 import { Physics } from "@react-three/cannon";
 import "./Models/model.css";
 import * as THREE from "three"
+import { Helmet } from "react-helmet-async";
+
 const material = new THREE.MeshMatcapMaterial()
 
 
@@ -47,6 +49,7 @@ function Hero() {
   }, [])
   return (
     <>
+    
       {/* <Center  > */}
       {/* <Physics gravity={10}> */}
       {/* <Physics> */}
@@ -127,6 +130,12 @@ function BgModel() {
 
 export default function Contact() {
   return (
+    <>
+    <Helmet>  
+      <title>contact</title>
+      <meta name="description" content="contact page need page information" />
+      <link rel="canonical" href="http://localhost:5173/contact" />
+    </Helmet>
     <div className="scene">
       <Canvas camera={{
         // position: [0, 0, -10], 
@@ -177,5 +186,6 @@ export default function Contact() {
         {/* <ambientLight intensity={0.6} color={"#dee2ff"} /> */}
       </Canvas>
     </div>
+    </>
   );
 }

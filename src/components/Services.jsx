@@ -13,6 +13,8 @@ import React, { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 import '../components/Models/model.css'
 import ServiceModel from './Models/ServiceModel'
+import {Helmet} from 'react-helmet-async'
+
 
 // md_img
 import mdimg2 from '../../src/assets/all-images/md_img4.png'
@@ -37,6 +39,11 @@ import wdimg6 from '../../src/assets/all-images/wd_img05.png'
 const Services = () => {
   return (
     <>
+     <Helmet>
+      <title>service</title>
+      <meta name="description" content="services page need page information" />
+      <link rel="canonical" href="http://localhost:5173/services" />
+    </Helmet>
       <section className='font-urbanist' >
         {/* <div className='flex home_page'>
           

@@ -19,11 +19,11 @@ const MyRoutes = () => {
 
     {/* Contant  */}
     <Routes>
-        <Route path="/home" element={<Home/>} />
+        <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/services" element={<Services/>} />
         <Route path="/myteam" element={<MyTeam/>} />
-        <Route path="/contactus" element={<Contact/>} />
+        <Route path="/contact" element={<Contact/>} />
     </Routes>
 
     {/* Footer  */}
