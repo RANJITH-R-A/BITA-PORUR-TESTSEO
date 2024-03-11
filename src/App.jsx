@@ -5,7 +5,6 @@ function App() {
   return (
     <>
    <MyRoutes/>
-   {/* <h1 className='text-red-300 text-center text-3xl font-bold'>Hello World</h1> */}
     </>
   )
 }

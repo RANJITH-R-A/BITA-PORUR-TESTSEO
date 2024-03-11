@@ -1,5 +1,4 @@
 import React from 'react'
-import MyTeam01 from './Models/MyTeam01'
 import { Helmet } from 'react-helmet-async'
 
 export default function MyTeam() {
@@ -11,7 +10,9 @@ export default function MyTeam() {
       <meta name="description" content="home page need page information" />
       <link rel="canonical" href="http://localhost:5173/myteam" />
     </Helmet>
-    <MyTeam01/>
+    <section>
+      <h1>My Team</h1>
+    </section>
       </>
   )
 }
