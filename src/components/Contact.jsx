@@ -9,7 +9,7 @@ export default function Contact() {
       <Helmet>
         <title>contact</title>
         <meta name="description" content="contact page need page information" />
-        <link rel="canonical" href="http://localhost:5173/contact" />
+        <link rel="canonical" href="/contact" />
       </Helmet>
 
       <section>

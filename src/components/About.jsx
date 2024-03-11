@@ -8,7 +8,7 @@ const About = () => {
      <Helmet>
       <title>about</title>
       <meta name="description" content="about page need page information" />
-      <link rel="canonical" href="http://localhost:5173/about" />
+      <link rel="canonical" href="/about" />
     </Helmet>
       <section>
         <h1>About Page</h1>

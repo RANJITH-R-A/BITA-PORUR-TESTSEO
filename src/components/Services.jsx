@@ -9,7 +9,7 @@ const Services = () => {
      <Helmet>
       <title>service</title>
       <meta name="description" content="services page need page information" />
-      <link rel="canonical" href="http://localhost:5173/services" />
+      <link rel="canonical" href="/services" />
     </Helmet>
       <section >
         <h1>Service Page</h1>

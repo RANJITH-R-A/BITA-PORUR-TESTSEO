@@ -7,7 +7,7 @@ const Home = () => {
     <Helmet>
       <title>Home</title>
       <meta name="description" content="home page need page informatio" />
-      <link rel="canonical" href="http://localhost:5173/" />
+      <link rel="canonical" href="/" />
     </Helmet>
       <section >
              <h1>Home Page</h1>
