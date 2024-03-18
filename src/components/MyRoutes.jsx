@@ -6,6 +6,7 @@ import About from '../components/About'
 import Services from '../components/Services'
 import MyTeam from '../components/MyTeam'
 import Contact from '../components/Contact'
+import Footer from './Footer'
 
 
 const MyRoutes = () => {
@@ -20,6 +21,7 @@ const MyRoutes = () => {
         <Route path="/myteam" element={<MyTeam/>} />
         <Route path="/contact" element={<Contact/>} />
     </Routes>
+    <Footer/>
     </BrowserRouter>
     </>
   )
