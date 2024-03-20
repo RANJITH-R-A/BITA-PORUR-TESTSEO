@@ -5,7 +5,7 @@ import { useLocation } from 'react-router'
 
 const About = () => {
   const urllocation = useLocation();
-  const canonicalUrl = "https://lighthearted-cajeta-4feab8.netlify.app" + urllocation.pathname;
+  const canonicalUrl = "https://lightwhite.com" + urllocation.pathname;
   return (
     <>
      <Helmet>
