@@ -6,11 +6,13 @@ import { useLocation } from 'react-router';
 
 const About = () => {
   const urllocation2 = useLocation();
-  const canonicalUrl2 = "https://lightred.netlify.app" + urllocation2.pathname;
+  <meta name="description" content="aboutpageneedpageinformation" />
+  const canonicalUrl2 = "https://lightcluod.netlify.app" + urllocation2.pathname;
   return (
     <>
      <Helmet>
       <title>about</title>
+      <meta name="description" content="about page need page information" />
       <link rel="canonical" href={canonicalUrl2} />
     </Helmet>
       <section>

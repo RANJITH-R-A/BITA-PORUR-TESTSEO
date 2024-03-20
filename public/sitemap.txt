@@ -1,0 +1,5 @@
+https://lightcluod.netlify.app
+https://lightcluod.netlify.app/about
+https://lightcluod.netlify.app/services
+https://lightcluod.netlify.app/myteam
+https://lightcluod.netlify.app/contact

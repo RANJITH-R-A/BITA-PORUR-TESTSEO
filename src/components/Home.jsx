@@ -4,11 +4,12 @@ import { useLocation } from 'react-router';
 
 const Home = () => {
   const urllocation1 = useLocation();
-  const canonicalUrl1 = "https://lightred.netlify.app" + urllocation1.pathname;
+  const canonicalUrl1 = "https://lightcluod.netlify.app" + urllocation1.pathname;
   return (
     <>
       <Helmet>
         <title>home</title>
+      <meta name="description" content="home page need page information" />
         <link rel="canonical" href={canonicalUrl1} />
       </Helmet>
       <section >
