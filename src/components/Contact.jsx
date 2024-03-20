@@ -10,7 +10,7 @@ export default function Contact() {
   return (
     <>
      <Helmet>
-      <title>myteam</title>
+      <title>contact</title>
       <meta name="description" content="contact page need page information" />
       <link rel="canonical" href={canonicalUrl5} />
     </Helmet>
