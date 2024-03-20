@@ -1,15 +1,17 @@
 import React, { Suspense } from 'react'
 import { Helmet } from 'react-helmet-async'
+import { useLocation } from 'react-router';
 
 
 
 const Services = () => {
+  const urllocation3 = useLocation();
+  const canonicalUrl3 = "https://lightred.netlify.app" + urllocation3.pathname;
   return (
     <>
      <Helmet>
       <title>service</title>
-      <meta name="description" content="services page need page information" />
-      <link rel="canonical" href="/services" />
+      <link rel="canonical" href={canonicalUrl3} />
     </Helmet>
       <section >
         <h1>Service Page</h1>

@@ -1,18 +1,17 @@
-import React, { Suspense } from 'react'
+import React from 'react'
 import { Helmet } from 'react-helmet-async'
-import { useLocation } from 'react-router'
+import { useLocation } from 'react-router';
+
 
 
 const About = () => {
-  const urllocation = useLocation();
-  const canonicalUrl = "https://lightwhite.netlify.app" + urllocation.pathname;
+  const urllocation2 = useLocation();
+  const canonicalUrl2 = "https://lightred.netlify.app" + urllocation2.pathname;
   return (
     <>
      <Helmet>
       <title>about</title>
-      <meta name="description" content="about page need page information" />
-      <link rel="canonical" href={canonicalUrl} />
-      {/* <link rel="canonical" href="/about" /> */}
+      <link rel="canonical" href={canonicalUrl2} />
     </Helmet>
       <section>
         <h1>About Page</h1>
