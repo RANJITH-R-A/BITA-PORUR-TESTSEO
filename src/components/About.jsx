@@ -5,7 +5,7 @@ import { useLocation } from 'react-router'
 
 const About = () => {
   const urllocation = useLocation();
-  const canonicalUrl = "https://lightwhite.com" + urllocation.pathname;
+  const canonicalUrl = "https://lightwhite.netlify.app" + urllocation.pathname;
   return (
     <>
      <Helmet>
