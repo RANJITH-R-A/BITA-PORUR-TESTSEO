@@ -18,7 +18,7 @@ const Home = () => {
         <meta property="og:url" content={canonicalUrl1} />
       </Helmet>
       <section >
-        <h1>Home Page</h1>
+        <h1>Home Page + Og tag</h1>
       </section>
     </>
   )
