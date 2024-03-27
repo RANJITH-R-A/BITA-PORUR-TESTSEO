@@ -18,11 +18,12 @@ const About = () => {
       <link rel="canonical" href={canonicalUrl2} />
       <meta property="og:title" content="Light Cluod" />
         <meta property="og:description" content="About page need page information." />
-        <meta property="og:image" content={canonicalUrl2+homeimg} />
-        <meta property="og:url" content={canonicalUrl2} />
+        <meta property="og:image" content={"https://lightcluod.netlify.app/"+homeimg} />
+        <meta property="og:url" content="https://lightcluod.netlify.app" />
     </Helmet>
       <section>
         <h1>About Page</h1>
+        {/* <img src={homeimg} alt="img" /> */}
       </section>
     </>
   )
