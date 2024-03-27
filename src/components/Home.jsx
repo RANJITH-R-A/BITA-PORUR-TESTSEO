@@ -14,7 +14,7 @@ const Home = () => {
         <link rel="canonical" href={canonicalUrl1} />
         <meta property="og:title" content="Light Cluod" />
         <meta property="og:description" content="home page need page information." />
-        <meta property="og:image" content={"https://lightcluod.netlify.app/"+homeimg} />
+        <meta property="og:image" content={"https://lightcluod.netlify.app"+homeimg} />
         <meta property="og:url" content="https://lightcluod.netlify.app" />
       </Helmet>
       <section >

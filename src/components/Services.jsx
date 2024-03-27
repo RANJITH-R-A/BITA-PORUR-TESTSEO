@@ -1,6 +1,8 @@
 import React, { Suspense } from 'react'
 import { Helmet } from 'react-helmet-async'
 import { useLocation } from 'react-router';
+import homeimg from '../../public/all-images/md_bgimg01.jpeg'
+
 
 
 
@@ -13,6 +15,10 @@ const Services = () => {
       <title>service</title>
       <meta name="description" content="service page need page information" />
       <link rel="canonical" href={canonicalUrl3} />
+      <meta property="og:title" content="Light Cluod" />
+        <meta property="og:description" content="Service page need page information." />
+        <meta property="og:image" content={"https://lightcluod.netlify.app"+homeimg} />
+        <meta property="og:url" content="https://lightcluod.netlify.app" />
     </Helmet>
       <section >
         <h1>Service Page</h1>
